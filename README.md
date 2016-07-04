@@ -17,7 +17,7 @@ A project requires to draw an ancient China map using d3. Therefore I have to fi
 
 * Edit KMZ files using Google Earth.
 
-> To reduce the file size and keep the general shape of the map, I delete a number of small islands in the map. Finally, save to KML file.
+> To reduce the file size and keep the general shape of the map, I delete a number of small islands in the map. Finally, save it as a KML file.
 
 * Convert KML files to topojson using: https://github.com/Georeactor/to-topojson 
 
@@ -25,7 +25,7 @@ A project requires to draw an ancient China map using d3. Therefore I have to fi
 
 * Draw it using d3.js.
 
-> I draw the map based on the template: https://github.com/clemsos/d3-china-map. One tricky part is to remove the outer rectangle of each province. I don't know why the topojson file contains that rectangle. If there's a better way of obtaining topojson files, please let me know. Thank you!
+> I draw the map based on the template: https://github.com/clemsos/d3-china-map. One tricky part is to remove an outer rectangle of each province. I don't know why the topojson file contains that rectangle. If there's a better way of obtaining topojson files, please let me know. Thank you!
 
 * Explore the ancient map
 
