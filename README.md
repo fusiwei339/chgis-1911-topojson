@@ -7,6 +7,7 @@ A project requires to draw an ancient China map using d3. Therefore I have to fi
 ## How to run
 1. In the 'visualization' folder, run a http server, such as [node-http-server][1]
 2. Open 'localhost:8080' in Chrome. 8080 is the default port opened by node-http-server.
+![](https://github.com/fusiwei339/chgis-1911-topojson/raw/master/screenshots.png)
 
 ## Work flow:
 
@@ -16,7 +17,7 @@ A project requires to draw an ancient China map using d3. Therefore I have to fi
 
 * Edit KMZ files using Google Earth.
 
-> To reduce the file size and keep the general shape of the map, I delete a number of small islands in the map. At last, save to KML file.
+> To reduce the file size and keep the general shape of the map, I delete a number of small islands in the map. Finally, save to KML file.
 
 * Convert KML files to topojson using: https://github.com/Georeactor/to-topojson 
 
@@ -24,7 +25,7 @@ A project requires to draw an ancient China map using d3. Therefore I have to fi
 
 * Draw it using d3.js.
 
-> Based on the template: https://github.com/clemsos/d3-china-map One tricky part is to remove the outer rectangle of each province. I don't know why the topojson file contains that rectangle. If there's a better way of obtaining topojson files, please let me know. Thank you!
+> I draw the map based on the template: https://github.com/clemsos/d3-china-map. One tricky part is to remove the outer rectangle of each province. I don't know why the topojson file contains that rectangle. If there's a better way of obtaining topojson files, please let me know. Thank you!
 
 * Explore the ancient map
 
